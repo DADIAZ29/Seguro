@@ -17,10 +17,10 @@ public class Paciente {
     private String telefono;
     private String correo;
 
-    // 🔹 Constructor vacío (obligatorio para JPA)
+
     public Paciente() {}
 
-    // 🔹 Constructor con parámetros (opcional, útil para pruebas)
+
     public Paciente(String cedula, String nombre, String apellido, String direccion, String telefono, String correo) {
         this.cedula = cedula;
         this.nombre = nombre;
@@ -30,7 +30,7 @@ public class Paciente {
         this.correo = correo;
     }
 
-    // 🔹 Getters y Setters
+
     public String getCedula() { return cedula; }
     public void setCedula(String cedula) { this.cedula = cedula; }
 
